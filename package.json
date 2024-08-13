@@ -1,0 +1,29 @@
+{
+  "name": "cinetrack",
+  "version": "1.0.0",
+  "description": "A movie recommendation application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "jose": "^5.6.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "node-vibrant": "^3.2.1-alpha.1",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "sharp": "^0.33.4"
+  }
+}
